@@ -17,8 +17,50 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Label Grid.ColumnSpan="2" FontSize="32" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Red" FontWeight="Bold">WW1 Warships</Label>
-        <DataGrid Grid.Row="1" Height="155" AutoGenerateColumns="False" IsReadOnly="True">
-            
+        <DataGrid Grid.Row="1" Height="155" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding Warships}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Név" Binding="{Binding Name}">
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Hajóosztály" Binding="{Binding Class}">
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="HajóTípus" Binding="{Binding Type}">
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Indítási év" Binding="{Binding Launched}">
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Fegyver Kaliber" Binding="{Binding MainGunCaliber}">
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Ország" Binding="{Binding Country}">
+
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Grid.Row="1" Grid.Column="1">Szürt adatok:</Label>
+        <DataGrid Grid.Row="2" Grid.Column="1" ItemsSource="{Binding FilteredWarships}" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Név" Binding="{Binding Name}">
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Hajóosztály" Binding="{Binding Class}">
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="HajóTípus" Binding="{Binding Type}">
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Indítási év" Binding="{Binding Launched}">
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Fegyver Kaliber" Binding="{Binding MainGunCaliber}">
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Ország" Binding="{Binding Country}">
+
+                </DataGridTextColumn>
+            </DataGrid.Columns>
         </DataGrid>
         <StackPanel Grid.Column="0" Grid.Row="2">
             <Button x:Name="BtnAddNew">Új Hozzáadása</Button>

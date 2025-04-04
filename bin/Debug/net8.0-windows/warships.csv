@@ -1,0 +1,125 @@
+name,class,type,launched,main_gun_caliber,country
+HMS Dreadnought,Dreadnought-class,Battleship,1906,12-inch,United Kingdom
+HMS Queen Elizabeth,Queen Elizabeth-class,Battleship,1913,15-inch,United Kingdom
+HMS Warspite,Queen Elizabeth-class,Battleship,1913,15-inch,United Kingdom
+HMS Iron Duke,Iron Duke-class,Battleship,1912,13.5-inch,United Kingdom
+HMS Lion,Lion-class,Battlecruiser,1910,13.5-inch,United Kingdom
+HMS Tiger,Tiger-class,Battlecruiser,1913,13.5-inch,United Kingdom
+HMS Barham,Queen Elizabeth-class,Battleship,1914,15-inch,United Kingdom
+HMS Repulse,Renown-class,Battlecruiser,1916,15-inch,United Kingdom
+SMS Nassau,Nassau-class,Battleship,1908,11-inch,Germany
+SMS Derfflinger,Derfflinger-class,Battlecruiser,1913,12-inch,Germany
+SMS Seydlitz,Seydlitz-class,Battlecruiser,1912,11-inch,Germany
+SMS König,König-class,Battleship,1913,12-inch,Germany
+SMS Kaiser,Kaiser-class,Battleship,1911,12-inch,Germany
+SMS Moltke,Moltke-class,Battlecruiser,1910,11-inch,Germany
+SMS Hindenburg,Derfflinger-class,Battlecruiser,1915,12-inch,Germany
+USS Nevada,Nevada-class,Battleship,1914,14-inch,USA
+USS Arizona,Pennsylvania-class,Battleship,1915,14-inch,USA
+USS Pennsylvania,Pennsylvania-class,Battleship,1915,14-inch,USA
+USS Oklahoma,Nevada-class,Battleship,1914,14-inch,USA
+Courbet,Courbet-class,Battleship,1911,12-inch,France
+Jean Bart,Courbet-class,Battleship,1911,12-inch,France
+Paris,Courbet-class,Battleship,1912,12-inch,France
+Bretagne,Bretagne-class,Battleship,1913,13.4-inch,France
+Conte di Cavour,Conte di Cavour-class,Battleship,1911,12-inch,Italy
+Andrea Doria,Andrea Doria-class,Battleship,1913,12-inch,Italy
+Gangut,Gangut-class,Battleship,1911,12-inch,Russia
+Petropavlovsk,Gangut-class,Battleship,1911,12-inch,Russia
+Sevastopol,Gangut-class,Battleship,1911,12-inch,Russia
+SMS Viribus Unitis,Tegetthoff-class,Battleship,1911,12-inch,Austria-Hungary
+SMS Tegetthoff,Tegetthoff-class,Battleship,1912,12-inch,Austria-Hungary
+Kawachi,Kawachi-class,Battleship,1910,12-inch,Japan
+Settsu,Kawachi-class,Battleship,1911,12-inch,Japan
+Fuso,Fuso-class,Battleship,1914,14-inch,Japan
+HMS Hogue,Cressy-class,Armoured Cruiser,1900,9.2-inch,United Kingdom
+HMS Cressy,Cressy-class,Armoured Cruiser,1899,9.2-inch,United Kingdom
+HMS Aboukir,Cressy-class,Armoured Cruiser,1900,9.2-inch,United Kingdom
+HMS Amethyst,Topaze-class,Protected Cruiser,1903,6-inch,United Kingdom
+HMS Active,Active-class,Scout Cruiser,1911,4-inch,United Kingdom
+HMS Adventure,Adventure-class,Scout Cruiser,1904,4-inch,United Kingdom
+SMS Breslau,Magdeburg-class,Light Cruiser,1911,4.1-inch,Germany
+SMS Emden,Dresden-class,Light Cruiser,1908,4.1-inch,Germany
+SMS Königsberg,Königsberg-class,Light Cruiser,1905,4.1-inch,Germany
+USS Olympia,Unique,Protected Cruiser,1892,8-inch,USA
+USS Brooklyn,Brooklyn-class,Armoured Cruiser,1895,8-inch,USA
+USS Baltimore,Baltimore-class,Protected Cruiser,1888,8-inch,USA
+Jeanne d'Arc,Jeanne d'Arc-class,Armoured Cruiser,1899,7.6-inch,France
+Dupleix,Gueydon-class,Armoured Cruiser,1900,7.6-inch,France
+Gloire,Gloire-class,Armoured Cruiser,1899,7.6-inch,France
+Aurora,Pallada-class,Protected Cruiser,1900,6-inch,Russia
+Diana,Pallada-class,Protected Cruiser,1899,6-inch,Russia
+Pallada,Pallada-class,Protected Cruiser,1899,6-inch,Russia
+Zenta,Zenta-class,Protected Cruiser,1896,4.7-inch,Austria-Hungary
+Aspern,Zenta-class,Protected Cruiser,1899,4.7-inch,Austria-Hungary
+Szigetvár,Zenta-class,Protected Cruiser,1899,4.7-inch,Austria-Hungary
+Kasuga,Giuseppe Garibaldi-class,Armoured Cruiser,1902,8-inch,Japan
+Nisshin,Giuseppe Garibaldi-class,Armoured Cruiser,1903,8-inch,Japan
+Yakumo,Yakumo-class,Armoured Cruiser,1899,8-inch,Japan
+Pisa,Pisa-class,Armoured Cruiser,1907,10-inch,Italy
+Amalfi,Pisa-class,Armoured Cruiser,1908,10-inch,Italy
+San Giorgio,San Giorgio-class,Armoured Cruiser,1908,10-inch,Italy
+HMS Acheron,Acheron-class,Destroyer,1911,4-inch,United Kingdom
+HMS Ariel,Acheron-class,Destroyer,1911,4-inch,United Kingdom
+HMS Attack,Acheron-class,Destroyer,1911,4-inch,United Kingdom
+HMS Acasta,Acasta-class,Destroyer,1912,4-inch,United Kingdom
+HMS Archer,Acheron-class,Destroyer,1911,4-inch,United Kingdom
+HMS Wickes,Wickes-class,Destroyer,1918,4-inch,USA
+HMS Kimberly,Wickes-class,Destroyer,1918,4-inch,USA
+HMS Allen,Wickes-class,Destroyer,1918,4-inch,USA
+HMS Cassin,Cassin-class,Destroyer,1913,4-inch,USA
+USS Downes,Cassin-class,Destroyer,1915,4-inch,USA
+Novik,Novik-class,Destroyer,1913,4-inch,Russia
+Derzky,Derzky-class,Destroyer,1914,4-inch,Russia
+Gavriil,Orfey-class,Destroyer,1916,4-inch,Russia
+Azard,Orfey-class,Destroyer,1916,4-inch,Russia
+Kerch,Fidonisy-class,Destroyer,1915,4-inch,Russia
+SMS G174,G174-class,Destroyer,1910,3.5-inch,Germany
+SMS V151,V150-class,Destroyer,1908,3.5-inch,Germany
+SMS S139,S138-class,Destroyer,1910,3.5-inch,Germany
+SMS G175,G174-class,Destroyer,1910,3.5-inch,Germany
+SMS V152,V150-class,Destroyer,1908,3.5-inch,Germany
+SMS Huszar,Huszar-class,Destroyer,1909,2.95-inch,Austria-Hungary
+SMS Csikos,Huszar-class,Destroyer,1913,2.95-inch,Austria-Hungary
+SMS Ulan,Huszar-class,Destroyer,1910,2.95-inch,Austria-Hungary
+SMS Streiter,Huszar-class,Destroyer,1909,2.95-inch,Austria-Hungary
+SMS Dinara,Huszar-class,Destroyer,1913,2.95-inch,Austria-Hungary
+USS Smith,Smith-class,Destroyer,1909,3-inch,USA
+USS Flusser,Smith-class,Destroyer,1909,3-inch,USA
+USS Lamson,Smith-class,Destroyer,1909,3-inch,USA
+USS Preston,Smith-class,Destroyer,1909,3-inch,USA
+USS Reid,Smith-class,Destroyer,1910,3-inch,USA
+Fushimi,Momo-class,Destroyer,1915,4.7-inch,Japan
+Hatsuharu,Momo-class,Destroyer,1915,4.7-inch,Japan
+Kiku,Kaba-class,Destroyer,1915,4.7-inch,Japan
+Kaba,Kaba-class,Destroyer,1915,4.7-inch,Japan
+Sana,Kaba-class,Destroyer,1915,4.7-inch,Japan
+Audace,Audace-class,Destroyer,1913,3-inch,Italy
+Animoso,Audace-class,Destroyer,1913,3-inch,Italy
+Ardente,Ardente-class,Destroyer,1913,3-inch,Italy
+Ardito,Ardente-class,Destroyer,1913,3-inch,Italy
+Impetuoso,Indomito-class,Destroyer,1913,3-inch,Italy
+Irrequieto,Indomito-class,Destroyer,1913,3-inch,Italy
+Impavido,Indomito-class,Destroyer,1913,3-inch,Italy
+Intrépido,Indomito-class,Destroyer,1913,3-inch,Italy
+Indomito,Indomito-class,Destroyer,1912,3-inch,Italy
+U-1,U-1-class,Submarine,1906,No Main Gun,Germany
+U-9,U-9-class,Submarine,1910,No Main Gun,Germany
+U-20,U-19-class,Submarine,1912,No Main Gun,Germany
+U-21,U-19-class,Submarine,1913,No Main Gun,Germany
+U-29,U-27-class,Submarine,1913,No Main Gun,Germany
+U-35,U-31-class,Submarine,1914,No Main Gun,Germany
+U-53,U-51-class,Submarine,1916,No Main Gun,Germany
+U-68,U-66-class,Submarine,1915,No Main Gun,Germany
+U-117,U-117-class,Submarine,1918,No Main Gun,Germany
+U-139,U-139-class,Submarine,1917,No Main Gun,Germany
+U-151,U-151-class,Submarine,1917,No Main Gun,Germany
+U-156,U-151-class,Submarine,1917,No Main Gun,Germany
+U-193,U-193-class,Submarine,1917,No Main Gun,Germany
+U-195,U-193-class,Submarine,1917,No Main Gun,Germany
+U-196,U-193-class,Submarine,1917,No Main Gun,Germany
+U-197,U-193-class,Submarine,1917,No Main Gun,Germany
+U-201,U-193-class,Submarine,1917,No Main Gun,Germany
+U-202,U-193-class,Submarine,1917,No Main Gun,Germany
+U-203,U-193-class,Submarine,1917,No Main Gun,Germany
+U-204,U-193-class,Submarine,1917,No Main Gun,Germany

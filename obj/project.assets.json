@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Prog\\CProg\\2025-04\\04-04_WarshipsProjekt\\BindingProjektWarships\\BindingProjektWarships.csproj",
+      "projectUniqueName": "Z:\\Prog\\CProg\\2025-04\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj",
       "projectName": "BindingProjektWarships",
-      "projectPath": "Z:\\Prog\\CProg\\2025-04\\04-04_WarshipsProjekt\\BindingProjektWarships\\BindingProjektWarships.csproj",
+      "projectPath": "Z:\\Prog\\CProg\\2025-04\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj",
       "packagesPath": "C:\\Users\\borbely.dominik.pete\\.nuget\\packages\\",
-      "outputPath": "Z:\\Prog\\CProg\\2025-04\\04-04_WarshipsProjekt\\BindingProjektWarships\\obj\\",
+      "outputPath": "Z:\\Prog\\CProg\\2025-04\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

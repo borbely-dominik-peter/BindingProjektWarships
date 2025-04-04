@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BindingProjektWarships")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c8d2084a6913abf81be1e8a15adecf3a4be07a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BindingProjektWarships")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BindingProjektWarships")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

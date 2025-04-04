@@ -1,0 +1,31 @@
+﻿<Window x:Class="BindingProjektWarships.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BindingProjektWarships"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.ColumnSpan="2" FontSize="32" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Red" FontWeight="Bold">WW1 Warships</Label>
+        <DataGrid Grid.Row="1" Height="155" AutoGenerateColumns="False" IsReadOnly="True">
+            
+        </DataGrid>
+        <StackPanel Grid.Column="0" Grid.Row="2">
+            <Button x:Name="BtnAddNew">Új Hozzáadása</Button>
+            <Button x:Name="BtnModify">Kiválasztott Adat módosítása</Button>
+            <Button x:Name="BtnDelete">Kiválasztott törlése</Button>
+            <Button x:Name="BtnSearch">Keresés Ablak</Button>
+        </StackPanel>
+
+    </Grid>
+</Window>

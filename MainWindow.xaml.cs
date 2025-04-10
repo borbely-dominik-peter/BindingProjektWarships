@@ -75,6 +75,12 @@ public partial class MainWindow : Window
     {
         this.DataContext = this;
         InitializeComponent();
+
+        //menü miatt
+        dgFilteredShips.Visibility = Visibility.Collapsed;
+        dgFilteredShips.IsEnabled = false;
+        spCountryFilter.Visibility = Visibility.Collapsed;
+        //
         FileReader();
         CountrySelFill();
     }
@@ -148,5 +154,29 @@ public partial class MainWindow : Window
         Warships.RemoveAt(IndexOfTarget);
         FileOverWriter();
         CountrySelFill();
+    }
+
+    //menü
+    private void Menu1_Click(object sender, RoutedEventArgs e)
+    {
+        dgAllShips.Visibility = Visibility.Visible;
+
+        spButtons.Visibility = Visibility.Visible;
+
+        dgFilteredShips.Visibility = Visibility.Collapsed;
+
+        spCountryFilter.Visibility = Visibility.Collapsed;
+        lblTitle.Content = "Hajók listája:";
+    }
+    private void Menu2_Click(object sender, RoutedEventArgs e)
+    {
+        dgAllShips.Visibility = Visibility.Collapsed;
+
+        spButtons.Visibility = Visibility.Collapsed;
+
+        dgFilteredShips.Visibility = Visibility.Visible;
+
+        spCountryFilter.Visibility = Visibility.Visible;
+        lblTitle.Content = "Szűrt adatok:";
     }
 }

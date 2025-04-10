@@ -8,19 +8,24 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\.nuget\\packages\\": {}
+    "C:\\Users\\bicsk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\Desktop\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj",
+      "projectUniqueName": "C:\\Users\\bicsk\\Desktop\\programozás\\c gyakorlás\\BindingProjektWarships\\BindingProjektWarships.csproj",
       "projectName": "BindingProjektWarships",
-      "projectPath": "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\Desktop\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj",
-      "packagesPath": "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\Desktop\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\obj\\",
+      "projectPath": "C:\\Users\\bicsk\\Desktop\\programozás\\c gyakorlás\\BindingProjektWarships\\BindingProjektWarships.csproj",
+      "packagesPath": "C:\\Users\\bicsk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bicsk\\Desktop\\programozás\\c gyakorlás\\BindingProjektWarships\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bicsk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -45,7 +50,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -69,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

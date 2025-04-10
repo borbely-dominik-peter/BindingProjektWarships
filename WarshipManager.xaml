@@ -6,7 +6,36 @@
         xmlns:local="clr-namespace:BindingProjektWarships"
         mc:Ignorable="d"
         Title="WarshipManager" Height="450" Width="350">
+    <Window.Resources>
+        <!--ide majd rakhatjuk a fontot-->
+        <FontFamily x:Key="WW1Font"></FontFamily>
+
+        <!--fontot mindenre-->
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="{StaticResource WW1Font}" />
+            <Setter Property="Foreground" Value="white"/>
+            <Setter Property="Background" Value="Gray"/>
+            <Setter Property="FontWeight" Value="bold"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="{StaticResource WW1Font}" />
+            <Setter Property="Foreground" Value="white"/>
+            <Setter Property="FontWeight" Value="bold"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="{StaticResource WW1Font}" />
+            <Setter Property="Foreground" Value="white"/>
+            <Setter Property="FontWeight" Value="bold"/>
+            <Setter Property="Background" Value="DarkGray"/>
+        </Style>
+    </Window.Resources>
     <Grid Margin="6">
+        <Grid.Background>
+            <ImageBrush ImageSource="ww1bg.png"
+                    Stretch="UniformToFill"
+                    AlignmentX="Center"
+                    AlignmentY="Center"/>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>

@@ -64,3 +64,28 @@ C:\Users\EEEEEEEEEEEEEEEEEEEE\Downloads\BindingProjektWarships-codeandclass-bran
 C:\Users\EEEEEEEEEEEEEEEEEEEE\Downloads\BindingProjektWarships-codeandclass-branch\BindingProjektWarships-codeandclass-branch\obj\Debug\net8.0-windows\BindingProjektWarships.pdb
 C:\Users\EEEEEEEEEEEEEEEEEEEE\Downloads\BindingProjektWarships-codeandclass-branch\BindingProjektWarships-codeandclass-branch\obj\Debug\net8.0-windows\BindingProjektWarships.genruntimeconfig.cache
 C:\Users\EEEEEEEEEEEEEEEEEEEE\Downloads\BindingProjektWarships-codeandclass-branch\BindingProjektWarships-codeandclass-branch\obj\Debug\net8.0-windows\ref\BindingProjektWarships.dll
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\bin\Debug\net8.0-windows\BindingProjektWarships.exe
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\bin\Debug\net8.0-windows\warships.csv
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\bin\Debug\net8.0-windows\BindingProjektWarships.deps.json
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\bin\Debug\net8.0-windows\BindingProjektWarships.runtimeconfig.json
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\bin\Debug\net8.0-windows\BindingProjektWarships.dll
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\bin\Debug\net8.0-windows\BindingProjektWarships.pdb
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\WarshipManager.g.cs
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships_MarkupCompile.cache
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships_MarkupCompile.lref
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\WarshipManager.baml
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships.g.resources
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships.AssemblyInfoInputs.cache
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships.AssemblyInfo.cs
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships.csproj.CoreCompileInputs.cache
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships.sourcelink.json
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships.dll
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\refint\BindingProjektWarships.dll
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships.pdb
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships.genruntimeconfig.cache
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\ref\BindingProjektWarships.dll
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Debug\net8.0-windows\BindingProjektWarships_Content.g.cs

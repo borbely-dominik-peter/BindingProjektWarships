@@ -9,6 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ww1bg.png" />
+    <None Remove="ww1Header.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ww1bg.png" />
+    <Content Include="ww1Header.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="warships.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

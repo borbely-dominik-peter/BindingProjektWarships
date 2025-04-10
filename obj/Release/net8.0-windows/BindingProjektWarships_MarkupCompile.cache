@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-Z:\Prog\CProg\2025-04\04-04_WarshipsCloneToGit\BindingProjektWarships\obj\Release\net8.0-windows\
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\obj\Release\net8.0-windows\
 BindingProjektWarships
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP
-Z:\Prog\CProg\2025-04\04-04_WarshipsCloneToGit\BindingProjektWarships\App.xaml
-11407045341
-
-5-1384455714
-1981839832580
-MainWindow.xaml;
+C:\Users\bicsk\Desktop\programozás\c gyakorlás\BindingProjektWarships\App.xaml
+2791358183
+2-1879931678
+6-614504711
+198-211836927
+MainWindow.xaml;WarshipManager.xaml;
 
 True
 

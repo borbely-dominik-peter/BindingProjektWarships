@@ -20,17 +20,17 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Content="Name Of Ship" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
+        <Label Content="Hajó neve:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
         <TextBox Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Height="35" Text="{Binding ManagedWarship.Name}"></TextBox>
-        <Label Content="Ship Class:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
+        <Label Content="Hajó osztálya:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
         <TextBox Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Height="35" Text="{Binding ManagedWarship.Class}"></TextBox>
-        <Label Content="Ship Type:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
+        <Label Content="Hajó típusa:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
         <TextBox Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Height="35" Text="{Binding ManagedWarship.Type}"></TextBox>
-        <Label Content="Year of Launching:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
+        <Label Content="Szolgálatba állás éve:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
         <TextBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Height="35" Text="{Binding ManagedWarship.Launched}"></TextBox>
-        <Label Content="Main Gun Caliber(inches):" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
+        <Label Content="Fő fegyver kaliber(inch-ben):" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
         <TextBox Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Height="35" Text="{Binding ManagedWarship.MainGunCaliber}"></TextBox>
-        <Label Content="Country:" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
+        <Label Content="Ország:" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
         <TextBox Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Height="35" Text="{Binding ManagedWarship.Country}"></TextBox>
         <Button Grid.Column="0" x:Name="BtnSave" Grid.ColumnSpan="2" Grid.Row="6" Click="BtnSave_Click">Mentés</Button>
     </Grid>

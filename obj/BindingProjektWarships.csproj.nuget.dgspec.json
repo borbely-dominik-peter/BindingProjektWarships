@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj": {}
+    "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\Desktop\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj": {}
   },
   "projects": {
-    "E:\\C#\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj": {
+    "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\Desktop\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj",
+        "projectUniqueName": "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\Desktop\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj",
         "projectName": "BindingProjektWarships",
-        "projectPath": "E:\\C#\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj",
+        "projectPath": "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\Desktop\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\BindingProjektWarships.csproj",
         "packagesPath": "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\obj\\",
+        "outputPath": "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\Desktop\\04-04_WarshipsCloneToGit\\BindingProjektWarships\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EEEEEEEEEEEEEEEEEEEE\\AppData\\Roaming\\NuGet\\NuGet.Config",

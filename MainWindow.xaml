@@ -6,18 +6,109 @@
         xmlns:local="clr-namespace:BindingProjektWarships"
         mc:Ignorable="d"
         Title="WW1 Hajókezelő" Height="450" Width="800">
+    <Window.Resources>
+        <!--ide majd rakhatjuk a fontot-->
+        <FontFamily x:Key="WW1Font"></FontFamily>
+        
+        <!--fontot mindenre-->
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="{StaticResource WW1Font}" />
+        </Style>
+        <Style TargetType="GroupBox">
+            <Setter Property="FontFamily" Value="{StaticResource WW1Font}" />
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="{StaticResource WW1Font}" />
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="FontFamily" Value="{StaticResource WW1Font}" />
+        </Style>
+
+        <!--datagridek stílusa-->
+        <Style TargetType="DataGrid">
+            <Setter Property="FontFamily" Value="{StaticResource WW1Font}" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Background" Value="#E1F0FF" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="HorizontalGridLinesBrush" Value="#A1C6EA" />
+            <Setter Property="VerticalGridLinesBrush" Value="#A1C6EA" />
+            <Setter Property="CellStyle">
+                <Setter.Value>
+                    <Style TargetType="DataGridCell">
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="BorderBrush" Value="#A1C6EA" />
+                        <Setter Property="BorderThickness" Value="1"/>
+                    </Style>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!--header elemek-->
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="Gray" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+
+            <Setter Property="BorderBrush" Value="White" />
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+
+        <!--sor-->
+        <Style TargetType="DataGridRow">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="Black" />
+            <Style.Triggers>
+                <!-- selected -->
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="DarkGray" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="ww1bg.png"
+                    Stretch="UniformToFill"
+                    AlignmentX="Center"
+                    AlignmentY="Center"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"></RowDefinition>
+            <RowDefinition></RowDefinition>
             <RowDefinition Height="0.5*"></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Label Grid.ColumnSpan="2" FontSize="32" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Red" FontWeight="Bold">Első Világháborús hajók</Label>
-        <DataGrid Grid.Row="1" Height="155" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding Warships}" SelectedItem="{Binding SelectedWarship}">
+        <StackPanel Grid.ColumnSpan="2" Orientation="Horizontal">
+            <StackPanel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" ShadowDepth="5" Direction="320" Opacity="0.6"/>
+            </StackPanel.Effect>
+            <StackPanel.Background>
+                <ImageBrush ImageSource="ww1Header.png"
+                    Stretch="UniformToFill"
+                    AlignmentX="Center"
+                    AlignmentY="Center"/>
+            </StackPanel.Background>
+            <Label FontSize="22" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="white" FontWeight="Bold">Első Világháborús hajók</Label>
+        </StackPanel>
+        <StackPanel Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Background="Transparent">
+            <Button Background="Transparent" BorderThickness="0" Padding="0" Click="Menu1_Click">
+                <Label VerticalContentAlignment="Center" Cursor="Hand" Focusable="False" FontWeight="Bold" Foreground="white" Background="Transparent" BorderThickness="0" FontSize="18">Hajók kezelése</Label>
+            </Button>
+            <Border Width="3" Background="White" Margin="10,0" VerticalAlignment="Stretch" />
+            <Button Background="Transparent" BorderThickness="0" Padding="0" Click="Menu2_Click">
+                <Label VerticalContentAlignment="Center" Cursor="Hand" Focusable="False" FontWeight="Bold" Foreground="white"  Background="Transparent" BorderThickness="0" FontSize="18">Keresés ország alapján</Label>
+            </Button>
+        </StackPanel>
+        <DataGrid x:Name="dgAllShips" Grid.Row="1" Margin="15,50,15,0" Grid.ColumnSpan="2" Height="155" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding Warships}" SelectedItem="{Binding SelectedWarship}">
+            <DataGrid.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" ShadowDepth="5" Direction="320" Opacity="0.6"/>
+            </DataGrid.Effect>
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Név" Binding="{Binding Name}">
 
@@ -39,8 +130,11 @@
                 </DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
-        <Label Grid.Row="1" Grid.Column="1">Szűrt adatok:</Label>
-        <DataGrid Grid.Row="2" Grid.Column="1" ItemsSource="{Binding FilteredWarships}"  AutoGenerateColumns="False" IsReadOnly="True">
+        <Label Foreground="white" x:Name="lblTitle" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="center" FontSize="22" FontWeight="bold">Hajók listája:</Label>
+        <DataGrid x:Name="dgFilteredShips" Grid.Row="1" Margin="15,50,15,0" Grid.ColumnSpan="2" ItemsSource="{Binding FilteredWarships}"  AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" ShadowDepth="5" Direction="320" Opacity="0.6"/>
+            </DataGrid.Effect>
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Név" Binding="{Binding Name}">
 
@@ -62,17 +156,34 @@
                 </DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
-        <StackPanel Grid.Column="0" Grid.Row="2">
-            <Button x:Name="BtnAddNew" Click="BtnAddNew_Click">Új Hozzáadása</Button>
-            <Button x:Name="BtnModify" Click="BtnModify_Click">Kiválasztott Adat módosítása</Button>
-            <Button x:Name="BtnDelete" Click="BtnDelete_Click">Kiválasztott törlése</Button>
-            <GroupBox Header="Keresés Ország alapján" Height="105">
+        <StackPanel Margin="0,10,0,0" x:Name="spButtons" Grid.ColumnSpan="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
+            <Button BorderBrush="White" BorderThickness="3" FontWeight="bold" Foreground="white" Background="gray" Height="50px" Padding="5" Margin="10,0,10,0" x:Name="BtnAddNew" Click="BtnAddNew_Click">
+                <Button.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="15" ShadowDepth="5" Direction="320" Opacity="0.6"/>
+                </Button.Effect>
+                Új Hozzáadása</Button>
+            <Button BorderBrush="White" BorderThickness="3" FontWeight="bold" Foreground="white" Background="gray" Height="50px" Padding="5" Margin="10,0,10,0" x:Name="BtnModify" Click="BtnModify_Click">
+                <Button.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="15" ShadowDepth="5" Direction="320" Opacity="0.6"/>
+                </Button.Effect>
+                Kiválasztott Adat módosítása</Button>
+            <Button BorderBrush="White" BorderThickness="3" FontWeight="bold" Foreground="white" Background="gray" Height="50px" Padding="5" Margin="10,0,10,0" x:Name="BtnDelete" Click="BtnDelete_Click">
+                <Button.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="15" ShadowDepth="5" Direction="320" Opacity="0.6"/>
+                </Button.Effect>
+                Kiválasztott törlése</Button>
+        </StackPanel>
+        <StackPanel x:Name="spCountryFilter" Grid.ColumnSpan="2" Grid.Row="2"  VerticalAlignment="Bottom">
+            <GroupBox Margin="150,10,150,10" FontWeight="Bold" Foreground="white" Background="DarkGray" Header="Keresés Ország alapján" Height="105">
+                <GroupBox.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="15" ShadowDepth="5" Direction="320" Opacity="0.6"/>
+                </GroupBox.Effect>
                 <StackPanel>
-                    <Label>Ország: </Label>
-                    <ComboBox ItemsSource="{Binding Countries}" SelectedItem="{Binding SelCountry}"></ComboBox>
-                    <Button x:Name="BtnSearch" Click="BtnSearch_Click">Keresés</Button>
+                    <Label FontWeight="Bold" Foreground="white">Ország:</Label>
+                    <ComboBox FontWeight="Bold" Background="#A1C6EA" ItemsSource="{Binding Countries}" SelectedItem="{Binding SelCountry}"></ComboBox>
+                    <Button FontWeight="Bold" Foreground="white" Background="gray" x:Name="BtnSearch" Click="BtnSearch_Click">Keresés</Button>
                 </StackPanel>
-                
+
             </GroupBox>
         </StackPanel>
 
